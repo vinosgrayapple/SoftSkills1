@@ -1,9 +1,4 @@
-/*
 
-	Author: Nemets Yury;
-	Site: www.sitehere.ru;
-
-*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,900&subset=latin,cyrillic);
 
@@ -27,8 +22,8 @@ p {
 }
 
 img {
-  max-width: 100%;
-}
+/*  max-width: 100%;
+*/}
 
 .content {
   width: 960px;
@@ -47,20 +42,44 @@ img {
 }
 
 div.section:nth-of-type(1) {
-  padding-top: 60px;
-  background: url(../img/g34.png) #272822;
+
+  background: url('../img/g34 copy.png')#272822;
 }
 
 div.section:nth-of-type(2) {
-  background: url(../img/bg.png) #8577E1;
+  background: url('../img/g34 copy.png') #8577E1;
 }
 
 div.section:nth-of-type(3) {
-  background: url(../img/bg.png) #E15F4B;
+  background: url('../img/g34 copy.png') #E15F4B;
 }
 
 div.section:nth-of-type(4) {
-  background: url(../img/bg.png) #32C465;
+  background: url('../img/g34 copy.png') #32C465;
+}
+
+div.section:nth-of-type(5) {
+  background: url('../img/g34 copy.png') #FF00FF;
+}
+
+div.section:nth-of-type(6) {
+  background: url('../img/g34 copy.png') #8685AC;
+}
+
+div.section:nth-of-type(7) {
+  background: url('../img/g34 copy.png') #0850CF;
+}
+
+div.section:nth-of-type(8) {
+  background: url('../img/g34 copy.png') #FFCC66;
+}
+
+div.section:nth-of-type(9) {
+  background: url('../img/g34 copy.png') #008040;
+}
+
+div.section:nth-of-type(10) {
+  background: url('../img/g34 copy.png') #6666FF;
 }
 
 
@@ -83,7 +102,7 @@ div.section:nth-of-type(4) {
     border-radius: 4px;
     color: #000;
     display: inline-block;
-    margin: 4px;
+    margin: 2px;
 }
 
 #menu li a, #menu li.active a {
@@ -147,18 +166,26 @@ div.section:nth-of-type(4) {
 
 .scrollicon,.imgNumber {
   text-align: center;
+  position: relative;
 }
 
 .imgNumber img {
-  margin-top: 12%;
+  position: absolute;
+  
+  margin-top: 10%;
+  width: 500px;
+
+/*  overflow:hidden;
+*/  /*margin: 0 auto;*/
+  /*margin-top: 12%;*/
+  /*max-width: 100%;
+    max-height: 100%;*/
 }
 
 
 
-/*######Стили для демо###########*/
-
-/*Кнопка "К статье"*/
 .backToSitehereBtn{
+  /*max-width: 100%;*/
   z-index: 71;
   display: block;
   width: 150px;
@@ -171,15 +198,15 @@ div.section:nth-of-type(4) {
   color:#fff;
   position: absolute;
   text-decoration: none;
-  top: 29px;
-  left:20px;
-  transform:rotate(-36deg) scale(1);
+  top: 30px;
+  left:-25px;
+  transform:rotate(-90deg) scale(.3);
   transition:all 0.25s linear;
 }
 
 .backToSitehereBtn:hover {
   text-decoration: none;
   top:30px;
-  left:40px;
-  transform:rotate(0deg) scale(2);
+  left:-15px;
+  transform:rotate(0deg) scale(.8);
 }
