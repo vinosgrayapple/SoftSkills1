@@ -42,8 +42,6 @@ img {
 }
 
 div.section:nth-of-type(1) {
-
-
   background: url(../img/bg.jpg) center center no-repeat #272822;
   -webkit-background-size: cover;
        -o-background-size: cover;
@@ -51,8 +49,14 @@ div.section:nth-of-type(1) {
 }
 
 div.section:nth-of-type(2) {
-  background: url(../img/bg2.jpg) #8577E1;
+  background: url()  #E15F4B;
+  /*-webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;*/
+      
+/*url(../img/bg2.jpg)*/
 }
+
 
 div.section:nth-of-type(3) {
   background: url(../img/bg3.jpg) #E15F4B;
