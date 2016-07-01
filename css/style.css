@@ -43,43 +43,46 @@ img {
 
 div.section:nth-of-type(1) {
 
-  background: url('../img/g34 copy.png')#272822;
+  background: url(../img/bg.jpg) center center no-repeat #272822;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(2) {
-  background: url('../img/g34 copy.png') #8577E1;
+  background: url() #8577E1;
 }
 
 div.section:nth-of-type(3) {
-  background: url('../img/g34 copy.png') #E15F4B;
+  background: url() #E15F4B;
 }
 
 div.section:nth-of-type(4) {
-  background: url('../img/g34 copy.png') #32C465;
+  background: url() #32C465;
 }
 
 div.section:nth-of-type(5) {
-  background: url('../img/g34 copy.png') #FF00FF;
+  background: url() #FF00FF;
 }
 
 div.section:nth-of-type(6) {
-  background: url('../img/g34 copy.png') #8685AC;
+  background: url() #8685AC;
 }
 
 div.section:nth-of-type(7) {
-  background: url('../img/g34 copy.png') #0850CF;
+  background: url() #0850CF;
 }
 
 div.section:nth-of-type(8) {
-  background: url('../img/g34 copy.png') #FFCC66;
+  background: url() #FFCC66;
 }
 
 div.section:nth-of-type(9) {
-  background: url('../img/g34 copy.png') #008040;
+  background: url() #008040;
 }
 
 div.section:nth-of-type(10) {
-  background: url('../img/g34 copy.png') #6666FF;
+  background: url() #6666FF;
 }
 
 
@@ -93,8 +96,17 @@ div.section:nth-of-type(10) {
     width: 100%;
     z-index: 70;
     text-align: right;
-    background: #fff;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+    // background: #fff;
     text-align: center;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.58);
+    -moz-box-shadow:    0px 3px 6px 0px rgba(50, 50, 50, 0.58);
+    box-shadow:         0px 3px 6px 0px rgba(50, 50, 50, 0.58);
 }
 
 #menu li {
@@ -116,8 +128,11 @@ div.section:nth-of-type(10) {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     color: #fff;
 }   
+#menu li a {
+  color: #636363;
+}
 #menu a img {
-  height: 30px;
+  height: 40px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
 }
@@ -164,16 +179,18 @@ div.section:nth-of-type(10) {
     text-align: justify;
 }
 
-.scrollicon,.imgNumber {
-  text-align: center;
+.imgNumber {
+  // text-align: center;
   position: relative;
+  left: 30px;
 }
 
 .imgNumber img {
   position: absolute;
   
   margin-top: 10%;
-  width: 500px;
+  width: 300px;
+  border: 5px solid #E6E3F9;
 
 /*  overflow:hidden;
 */  /*margin: 0 auto;*/
@@ -209,4 +226,26 @@ div.section:nth-of-type(10) {
   top:30px;
   left:-15px;
   transform:rotate(0deg) scale(.8);
+}
+
+#logo {
+  z-index: 5;
+  // max-width: 100px;
+  display: block;
+  // position: absolute; 
+  // height: 100px;
+  // top: 10px;
+  // left: 25px;
+width: 270px;
+float: left;
+}
+#menu #logo  img {
+  height: 110px;
+  // transform:rotate(0deg) scale(3);
+}
+#menu ul {
+  padding-top: 10px;
+  float: left;
+  margin: 0;
+
 }
