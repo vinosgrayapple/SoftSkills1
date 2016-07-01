@@ -51,11 +51,11 @@ div.section:nth-of-type(1) {
 }
 
 div.section:nth-of-type(2) {
-  background: url() #8577E1;
+  background: url(../img/bg2.jpg) #8577E1;
 }
 
 div.section:nth-of-type(3) {
-  background: url() #E15F4B;
+  background: url(../img/bg3.jpg) #E15F4B;
 }
 
 div.section:nth-of-type(4) {
@@ -198,6 +198,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
   width: 300px;
   border: 5px solid #E6E3F9;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
 }
 
 
