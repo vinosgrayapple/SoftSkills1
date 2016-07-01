@@ -278,3 +278,41 @@ float: left;
   height: 20px;
   text-shadow: 1px 1px 2px black, 0 0 1em grey;
 }
+
+
+
+
+.about,
+.target,
+.power,
+.role {
+  font-size: 18px;/*
+  max-width: 784px;
+    margin-left: 20%;*/
+    margin-bottom: 20px;
+  color: #fff;
+text-shadow: 1px 1px 2px black, 0 0 1em grey;
+}
+}
+
+.about {
+  /*padding-top: 270px;
+  padding-left: 50px;*/
+}
+
+.span-title {
+  font-size: 30px;
+  color: #c2c2c2;
+}
+.info_about {
+  display: block;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  margin-right: 60px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+   position: absolute;
+    top: 270px;
+    left: 400px;
+    line-height: 1.7em;
+}
