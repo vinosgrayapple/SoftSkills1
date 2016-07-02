@@ -42,7 +42,7 @@ img {
 }
 
 div.section:nth-of-type(1) {
-  background: url(../img/bg.jpg) center center no-repeat rgba(39,40,34,1);
+  background: url(../img/bg/bg1.jpg) center center no-repeat rgba(39,40,34,1);
   -webkit-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
@@ -51,45 +51,45 @@ div.section:nth-of-type(1) {
 }
 
 div.section:nth-of-type(2) {
-  background: url(../img/bg2.jpg)  #E15F4B;
-  /*-webkit-background-size: cover;
+  background: url(../img/bg/bg.jpg)  #E15F4B;
+  -webkit-background-size: cover;
        -o-background-size: cover;
-          background-size: cover;*/
+          background-size: cover;
       
-/*url(../img/bg2.jpg)*/
+/*url(../img/bg/bg2.jpg)*/
 }
 
 
 div.section:nth-of-type(3) {
-  background: url(../img/bg3.jpg) #E15F4B;
+  background: url(../img/bg/bg3.jpg) #E15F4B;
 }
 
 div.section:nth-of-type(4) {
-  background: url() #32C465;
+  background: url(../img/bg/bg4.jpg) #32C465;
 }
 
 div.section:nth-of-type(5) {
-  background: url() #FF00FF;
+  background: url(../img/bg/bg5.jpg) #FF00FF;
 }
 
 div.section:nth-of-type(6) {
-  background: url() #8685AC;
+  background: url(../img/bg/bg6.jpg) #8685AC;
 }
 
 div.section:nth-of-type(7) {
-  background: url() #0850CF;
+  background: url(../img/bg/bg7.jpg) #0850CF;
 }
 
 div.section:nth-of-type(8) {
-  background: url() #FFCC66;
+  background: url(../img/bg/bg8.jpg) #FFCC66;
 }
 
 div.section:nth-of-type(9) {
-  background: url() #008040;
+  background: url(../img/bg/bg9.jpg) #008040;
 }
 
 div.section:nth-of-type(10) {
-  background: url() #6666FF;
+  background: url(../img/bg/bg11.jpg) #6666FF;
 
 }
 
