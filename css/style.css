@@ -62,34 +62,58 @@ div.section:nth-of-type(2) {
 
 div.section:nth-of-type(3) {
   background: url(../img/bg/bg3.jpg) #E15F4B;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(4) {
   background: url(../img/bg/bg4.jpg) #32C465;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(5) {
   background: url(../img/bg/bg5.jpg) #FF00FF;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(6) {
   background: url(../img/bg/bg6.jpg) #8685AC;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(7) {
   background: url(../img/bg/bg7.jpg) #0850CF;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(8) {
   background: url(../img/bg/bg8.jpg) #FFCC66;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(9) {
   background: url(../img/bg/bg9.jpg) #008040;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 div.section:nth-of-type(10) {
   background: url(../img/bg/bg11.jpg) #6666FF;
+   -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 
 }
 
